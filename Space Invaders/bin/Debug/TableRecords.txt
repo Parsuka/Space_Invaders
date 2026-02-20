@@ -1,0 +1,18 @@
+Player 100
+Player 60
+Player 0
+Player 0
+Player 90
+Player 90
+Player 0
+Player 0
+Player 120
+Player 700
+Player 0
+Player 30
+
+Danyil 120
+Danyil 60
+Danyil 10
+Danyil 0
+Danyil 0

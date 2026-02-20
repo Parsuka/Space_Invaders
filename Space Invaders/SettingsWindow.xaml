@@ -1,0 +1,156 @@
+﻿<Window x:Class="Space_Invaders.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Space_Invaders"
+        mc:Ignorable="d"
+        Icon="C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\Images\LOGO-removebg-preview.png"
+        Title="Space Invaders - Settings" Height="450" Width="600"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResize"
+        Background="Black">
+    <Window.Resources>
+        <!-- Стиль для тексту в стилі Space Invaders (піксельний шрифт) -->
+        <Style x:Key="SpaceInvadersText" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Consolas, Courier New, monospace"/>
+            <Setter Property="Foreground" Value="#00FF00"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+
+        <!-- Стиль для кнопки в стилі Space Invaders -->
+        <Style x:Key="SpaceInvadersButton" TargetType="Button">
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="Foreground" Value="#00FF00"/>
+            <Setter Property="BorderBrush" Value="#00FF00"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="FontFamily" Value="Courier New"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#003300"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="#006600"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Стиль для текстових полів у стилі Space Invaders -->
+        <Style x:Key="SpaceInvadersTextBox" TargetType="TextBox">
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="Foreground" Value="#00FF00"/>
+            <Setter Property="BorderBrush" Value="#00FF00"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="FontFamily" Value="Courier New"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="CaretBrush" Value="#00FF00"/>
+            <Setter Property="SelectionBrush" Value="#008800"/>
+            <Setter Property="Padding" Value="5,3"/>
+        </Style>
+
+        <!-- Стиль для міток у стилі Space Invaders -->
+        <Style x:Key="SpaceInvadersLabel" TargetType="Label">
+            <Setter Property="Foreground" Value="#00FF00"/>
+            <Setter Property="FontFamily" Value="Courier New"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Верхня панель з назвою -->
+        <StackPanel Grid.Row="0" Margin="0,15,0,15">
+            <TextBlock Text="PILOT CONFIGURATION" 
+                       Style="{StaticResource SpaceInvadersText}" 
+                       FontSize="24" 
+                       HorizontalAlignment="Center"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                <Label Content="NAME:" 
+                       Style="{StaticResource SpaceInvadersLabel}" 
+                       VerticalAlignment="Center"/>
+                <TextBox x:Name="TextBoxName" 
+                         Style="{StaticResource SpaceInvadersTextBox}" 
+                         Width="150" 
+                         Height="30" 
+                         VerticalContentAlignment="Center"
+                         Margin="10,0,0,0"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Основний вміст з вибором корабля -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Кнопка вліво -->
+            <Button x:Name="LeftButton" 
+                    Grid.Column="0"
+                    Style="{StaticResource SpaceInvadersButton}" 
+                    Content="&lt;" 
+                    FontSize="28"
+                    Width="50" 
+                    Height="50"
+                    Margin="20,0" 
+                    Click="LeftButton_Click"/>
+
+            <!-- Контейнер для зображення -->
+            <Border Grid.Column="1" 
+                    BorderThickness="2" 
+                    BorderBrush="#00FF00" 
+                    Margin="10">
+                <Grid>
+                    <Image x:Name="DisplayImage" 
+                           Stretch="Uniform" 
+                           Margin="10"/>
+                    <TextBlock Text="SELECT YOUR SHIP" 
+                               Style="{StaticResource SpaceInvadersText}"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Top"
+                               Margin="0,10,0,0"/>
+                </Grid>
+            </Border>
+
+            <!-- Кнопка вправо -->
+            <Button x:Name="RightButton" 
+                    Grid.Column="2"
+                    Style="{StaticResource SpaceInvadersButton}" 
+                    Content="&gt;" 
+                    FontSize="28"
+                    Width="50" 
+                    Height="50"
+                    Margin="20,0" 
+                    Click="RightButton_Click"/>
+        </Grid>
+
+        <!-- Нижня панель з кнопкою -->
+        <Button Grid.Row="2" 
+                Content="SAVE AND LAUNCH" 
+                Style="{StaticResource SpaceInvadersButton}" 
+                Width="180" 
+                Height="40"
+                Margin="0,15,0,20"
+                HorizontalAlignment="Center"
+                Click="Button_Click"/>
+    </Grid>
+</Window>

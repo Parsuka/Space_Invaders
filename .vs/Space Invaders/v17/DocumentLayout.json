@@ -1,0 +1,247 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|e:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u043A\u0443\u0440\u0441\u043E\u0432\u0430\\space invaders_original\\space invaders\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|solutionrelative:space invaders\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\space invaders\\groupenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|solutionrelative:space invaders\\groupenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\space invaders\\endwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|solutionrelative:space invaders\\endwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\space invaders\\gamemode2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|solutionrelative:space invaders\\gamemode2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\space invaders\\gamemode1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|solutionrelative:space invaders\\gamemode1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\space invaders\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|solutionrelative:space invaders\\settingswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\space invaders\\barrier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|solutionrelative:space invaders\\barrier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\space invaders\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|solutionrelative:space invaders\\settingswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\space invaders\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|solutionrelative:space invaders\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\space invaders\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|solutionrelative:space invaders\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\space invaders\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|solutionrelative:space invaders\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\space invaders\\endwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|solutionrelative:space invaders\\endwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\space invaders\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A2FAC3-3912-4A1A-A20C-BE7AB7957B0C}|Space Invaders\\Space Invaders.csproj|solutionrelative:space invaders\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 387,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GroupEnemy.cs",
+              "DocumentMoniker": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\GroupEnemy.cs",
+              "RelativeDocumentMoniker": "Space Invaders\\GroupEnemy.cs",
+              "ToolTip": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\GroupEnemy.cs",
+              "RelativeToolTip": "Space Invaders\\GroupEnemy.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAwwL0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:25:36.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameMode2.xaml.cs",
+              "DocumentMoniker": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\GameMode2.xaml.cs",
+              "RelativeDocumentMoniker": "Space Invaders\\GameMode2.xaml.cs",
+              "ToolTip": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\GameMode2.xaml.cs",
+              "RelativeToolTip": "Space Invaders\\GameMode2.xaml.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:25:30.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\Player.cs",
+              "RelativeDocumentMoniker": "Space Invaders\\Player.cs",
+              "ToolTip": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\Player.cs",
+              "RelativeToolTip": "Space Invaders\\Player.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wCAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:25:44.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SettingsWindow.xaml",
+              "DocumentMoniker": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\SettingsWindow.xaml",
+              "RelativeDocumentMoniker": "Space Invaders\\SettingsWindow.xaml",
+              "ToolTip": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\SettingsWindow.xaml",
+              "RelativeToolTip": "Space Invaders\\SettingsWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T05:53:11.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameMode1.xaml.cs",
+              "DocumentMoniker": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\GameMode1.xaml.cs",
+              "RelativeDocumentMoniker": "Space Invaders\\GameMode1.xaml.cs",
+              "ToolTip": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\GameMode1.xaml.cs",
+              "RelativeToolTip": "Space Invaders\\GameMode1.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwCoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:25:26.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EndWindow.xaml.cs",
+              "DocumentMoniker": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\EndWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Space Invaders\\EndWindow.xaml.cs",
+              "ToolTip": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\EndWindow.xaml.cs",
+              "RelativeToolTip": "Space Invaders\\EndWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:25:15.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Barrier.cs",
+              "DocumentMoniker": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\Barrier.cs",
+              "RelativeDocumentMoniker": "Space Invaders\\Barrier.cs",
+              "ToolTip": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\Barrier.cs",
+              "RelativeToolTip": "Space Invaders\\Barrier.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:25:05.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SettingsWindow.xaml.cs",
+              "DocumentMoniker": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\SettingsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Space Invaders\\SettingsWindow.xaml.cs",
+              "ToolTip": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\SettingsWindow.xaml.cs",
+              "RelativeToolTip": "Space Invaders\\SettingsWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwG8AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:25:47.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\Enemy.cs",
+              "RelativeDocumentMoniker": "Space Invaders\\Enemy.cs",
+              "ToolTip": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\Enemy.cs",
+              "RelativeToolTip": "Space Invaders\\Enemy.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAywF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:25:18.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\Entity.cs",
+              "RelativeDocumentMoniker": "Space Invaders\\Entity.cs",
+              "ToolTip": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\Entity.cs",
+              "RelativeToolTip": "Space Invaders\\Entity.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:25:22.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\Bullet.cs",
+              "RelativeDocumentMoniker": "Space Invaders\\Bullet.cs",
+              "ToolTip": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\Bullet.cs",
+              "RelativeToolTip": "Space Invaders\\Bullet.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T17:07:10.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Space Invaders\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Space Invaders\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T12:25:40.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EndWindow.xaml",
+              "DocumentMoniker": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\EndWindow.xaml",
+              "RelativeDocumentMoniker": "Space Invaders\\EndWindow.xaml",
+              "ToolTip": "E:\\1 \u043A\u0443\u0440\u0441, \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430 \u002B \u041A\u0443\u0440\u0441\u043E\u0432\u0430\\Space Invaders_original\\Space Invaders\\EndWindow.xaml",
+              "RelativeToolTip": "Space Invaders\\EndWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T19:08:01.38Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\bin\Debug\Space Invaders.exe.config
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\bin\Debug\Space Invaders.exe
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders.csproj.AssemblyReference.cache
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\EndWindow.g.cs
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\GameMode1.g.cs
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\GameMode2.g.cs
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\MainWindow.g.cs
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\SettingsWindow.g.cs
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\App.g.cs
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders_MarkupCompile.cache
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders_MarkupCompile.lref
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\EndWindow.baml
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\GameMode1.baml
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\GameMode2.baml
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\MainWindow.baml
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\SettingsWindow.baml
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders.g.resources
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\Space_Invaders.Properties.Resources.resources
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders.csproj.GenerateResource.cache
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders.csproj.CoreCompileInputs.cache
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders.exe
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders.pdb
+C:\Users\danii\Desktop\Space Invaders_original\Space Invaders\bin\Debug\Space Invaders.pdb
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\bin\Debug\Space Invaders.exe.config
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\bin\Debug\Space Invaders.exe
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\bin\Debug\Space Invaders.pdb
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders.csproj.AssemblyReference.cache
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\EndWindow.g.cs
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\GameMode1.g.cs
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\GameMode2.g.cs
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\MainWindow.g.cs
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\SettingsWindow.g.cs
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\App.g.cs
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders_MarkupCompile.cache
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders_MarkupCompile.lref
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\EndWindow.baml
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\GameMode1.baml
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\GameMode2.baml
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\MainWindow.baml
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\SettingsWindow.baml
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders.g.resources
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\Space_Invaders.Properties.Resources.resources
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders.csproj.GenerateResource.cache
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders.csproj.CoreCompileInputs.cache
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders.exe
+E:\1 курс, практика + Курсова\Space Invaders_original\Space Invaders\obj\Debug\Space Invaders.pdb
