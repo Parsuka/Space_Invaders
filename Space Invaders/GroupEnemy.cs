@@ -62,7 +62,7 @@ namespace Space_Invaders
             }
         }
 
-
+//1
         public void StartEnemyMovement(Player player)
         {
             if (enemyTimer != null)
