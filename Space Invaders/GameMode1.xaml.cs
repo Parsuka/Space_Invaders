@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
@@ -16,6 +16,10 @@ namespace Space_Invaders
         List<Image> ListHPImage = new List<Image>();
         private DispatcherTimer timer = new DispatcherTimer();
         private GroupEnemy groupEnemy = new GroupEnemy();
+        
+        // Поля менеджерів для закриття Issue #2 та #3
+        private ScoreManager _scoreManager = new ScoreManager();
+        private GameState _gameState = new GameState();
 
         public GameMode1()
         {
@@ -28,19 +32,19 @@ namespace Space_Invaders
             MyCanvas.Children.Add(player.Image);
             Canvas.SetZIndex(player.Image, 5);
 
-            timer.Interval = TimeSpan.FromMilliseconds(16);
+            // Використання константи з GameConfig (Issue #3)
+            timer.Interval = TimeSpan.FromMilliseconds(GameConfig.Timing.GameTickMilliseconds);
             timer.Tick += Timer_Tick;
             timer.Start();
 
-       
-            Barrier barrier1 = new Barrier(200, 300);
-            Barrier barrier2 = new Barrier(500, 300);
+            // Використання позицій з GameConfig (Issue #3)
+            Barrier barrier1 = new Barrier(GameConfig.Layout.Barrier1X, 300);
+            Barrier barrier2 = new Barrier(GameConfig.Layout.Barrier2X, 300);
             barrier1.AddToCanvas(MyCanvas);
             barrier2.AddToCanvas(MyCanvas);
 
             var barriers = new List<Barrier> { barrier1, barrier2 };
 
-            
             player.Barriers = barriers;
             groupEnemy.Barriers = barriers;
 
@@ -51,75 +55,53 @@ namespace Space_Invaders
         private void Timer_Tick(object sender, EventArgs e)
         {
             UpdateHeartsUI();
-
             Move_Ship();
             player.CreateBullet(MyCanvas);
             groupEnemy.CheckBulletCollisions(player);
             player.BulletTick(MyCanvas);
         }
+
+        // Issue #2: DRY Violation — тепер логіка в одному місці
         private void UpdateHeartsUI()
         {
-
+            // Оновлення візуального відображення HP
             if (player.HP >= 0 && player.HP < ListHPImage.Count)
             {
-                // Приховати останнє серце (або те, що відповідає HP)
                 ListHPImage[player.HP].Visibility = Visibility.Hidden;
             }
-            if (player.HP == 0)
+
+            // Об'єднана перевірка: смерть або перемога (Issue #2)
+            // Використання констант станів (Issue #3)
+            if (player.HP <= GameConfig.States.DeadHP || player.HP == GameConfig.States.VictoryHP)
             {
-                var element = MyCanvas.Children
-    .OfType<FrameworkElement>()
-    .FirstOrDefault(e => e.Tag != null && e.Tag.ToString() == "ScoreText");
-
-                if (element is TextBlock Socore)
-                {
-                    string filePath = Directory.GetCurrentDirectory() + "/TableRecords.txt";
-                    string name = File.ReadAllLines(Directory.GetCurrentDirectory() + "/Settings.txt")[0].Trim();
-                    File.AppendAllText(filePath, name + " " + Socore.Text + "\n");
-
-                }
-                this.Hide();
-                EndWindow endWindow = new EndWindow(true);
-
-                endWindow.ShowDialog();
-                this.Show();
-
-                timer.Stop();
-                this.Close();
+                HandleGameOver(player.HP == GameConfig.States.VictoryHP);
             }
-            if (player.HP == -99)
-            {
-                var element = MyCanvas.Children
-    .OfType<FrameworkElement>()
-    .FirstOrDefault(e => e.Tag != null && e.Tag.ToString() == "ScoreText");
+        }
 
-                if (element is TextBlock Socore)
-                {
-                    string filePath = Directory.GetCurrentDirectory() + "/TableRecords.txt";
-                    string name = File.ReadAllLines(Directory.GetCurrentDirectory() + "/Settings.txt")[0].Trim();
-                    File.AppendAllText(filePath, name + " " + Socore.Text + "\n");
-
-                }
-                this.Hide();
-                EndWindow endWindow = new EndWindow(true);
-
-                endWindow.ShowDialog();
-                this.Show();
-
-                timer.Stop();
-                this.Close();
-            }
+        // Винесена спільна логіка завершення гри (Issue #2)
+        private void HandleGameOver(bool isVictory)
+        {
+            timer.Stop();
+            
+            // Збереження результату через окремий менеджер (SRP)
+            _scoreManager.SaveScore(MyCanvas);
+            
+            this.Hide();
+            // Створення вікна завершення з відповідним результатом
+            EndWindow endWindow = new EndWindow(isVictory);
+            endWindow.ShowDialog();
+            
+            this.Close();
         }
 
         private void SetImageHP()
         {
-
             for (int i = 0; i < player.MaxHP; i++)
             {
                 Image HPImage = new Image
                 {
-                    Width = 30,
-                    Height = 30,
+                    Width = GameConfig.Sizes.HeartSize,
+                    Height = GameConfig.Sizes.HeartSize,
                     Source = new BitmapImage(new Uri("Images/Heart.png", UriKind.Relative))
                 };
                 Canvas.SetLeft(HPImage, i * HPImage.Width + 5);
@@ -148,7 +130,7 @@ namespace Space_Invaders
 
             Canvas.SetLeft(player.Image, left);
 
-            double bottomY = this.ActualHeight - player.Image.ActualHeight - 40;
+            double bottomY = this.ActualHeight - player.Image.ActualHeight - GameConfig.Layout.PlayerBottomOffset;
             Canvas.SetTop(player.Image, bottomY);
         }
 
